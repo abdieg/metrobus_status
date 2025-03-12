@@ -18,7 +18,7 @@ load_dotenv()  # Load .env variables
 # logger.add("scrapper_metrobus_{time}.log", rotation="1 day", level="INFO")
 
 HEADLESS = True
-SCHEDULED = False
+SCHEDULED = True
 
 TESTING_URL: str = "https://www.metrobus.cdmx.gob.mx/ServicioMB"
 
