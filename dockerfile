@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 # Install necessary dependencies
-RUN apt-get update && apt-get install -y wget unzip gnupg --no-install-recommends
+RUN apt-get update && apt-get install -y wget unzip gnupg curl --no-install-recommends
 
 # Select Chrome and Chromedriver version
 # Check "https://googlechromelabs.github.io/chrome-for-testing/#stable" for availability
